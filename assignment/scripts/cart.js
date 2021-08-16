@@ -19,6 +19,7 @@ function empty(){
   return basket = [];
 }
 
+// test addItem
 console.log('basket is ',  basket );
 console.log('Adding apples', addItem('apples') );
 console.log('basket is now,', basket );
@@ -27,4 +28,5 @@ console.log('added', addItem('pear'));
 console.log('added', addItem('orange'));
 console.log('basket is now,', basket );
 
+// test listItems
 listItems()
