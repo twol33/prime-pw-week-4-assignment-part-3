@@ -9,7 +9,9 @@ function addItem( item ){
   return true;
 }
 
-function listItems( basket ){
+function listItems(){
+  for( let x=0; x<basket.length; x++)
+  console.log( basket[x]);
   return basket;
 }
 
@@ -25,6 +27,4 @@ console.log('added', addItem('pear'));
 console.log('added', addItem('orange'));
 console.log('basket is now,', basket );
 
-console.log('item name: ', listItems( 'apples' ))
-console.log('item name: ', listItems( 'pear' ))
-console.log('item name: ', listItems( 'orange' ))
+listItems()
